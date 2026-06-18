@@ -10,7 +10,7 @@ public class StringLength {
         int count = 0;
         char[] chars = str.toCharArray();  // convert string to char array
         
-        for (char ch : chars) {
+        for (char c : chars) {
             count++;
         }
         
